@@ -1,0 +1,405 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #dde6e1;
+}
+img{
+    position: relative;
+    width: 300px;
+    top: 11.5rem;
+    margin-left: 10rem;
+}
+#p1{
+    position: relative;
+    font-style: helvetica;
+    font-size: 30px;
+    font-weight: lighter;
+    margin-left: 11rem;
+    width: 29.5rem;
+    top: 10.5rem;
+}
+#form1{
+    position: relative;
+    left: 50rem;
+    bottom: 5rem;
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+    width: 396px;
+    height: 330px;
+}
+input{
+    margin-left: 20px;
+}
+.form-control{
+    width: 350px;
+    height: 7vh;
+}
+#password{
+    position: relative;
+    top: 15px;
+}
+#btn01{
+    position: relative;
+    top: 25px;
+    margin-left: 20px;
+    width: 350px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+#a1{
+    position: relative;
+    top: 35px;
+    left: 7.9rem;
+    font-size: 18px;
+    text-decoration: none;
+}
+#btn02{
+    position: relative;
+    top: 25px;
+    margin-left: 20px;
+    width: 350px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+#a2{
+    position: relative;
+    top: 2.3rem;
+    left: 6rem;
+    color: #fff;
+    background-color: #42B72A;
+    font: 17px helvetica arial,sans-serif;
+    padding: 10px;
+    text-decoration: none;
+    margin-left: 15px;
+    border-radius: 5px ;
+}
+.line{
+    position: relative;
+    top: 30px;
+    width: 350px;
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 20px;
+}
+#p2{
+    position: relative;
+    bottom: 4rem;
+    left: 53rem;
+}
+#a3{
+    font-weight: bold;
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+}
+#a3:hover{
+    text-decoration: underline;
+}
+/* Creation of hover SIGN UP*/
+#upper{
+    position: relative;
+    top: 68px;
+    left: 60%;
+    margin-left: 30px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    width: 432px;
+    content: "";
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    border-radius: 8px 8px 0px 0px ;
+}
+#downer{
+    position: relative;
+    top: 39px;
+    left: 60%;
+    margin: 30px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 0 0 8px 8px;
+    border-top: 1px solid #dadde1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    width: 432px;
+    height: 100%;
+    bottom: 29.1px;
+    content: "";
+}
+#h1{
+    margin-left: 20px;
+}
+#p3{
+    margin-left: 20px;
+}
+#fname .form-control{
+    width: 180px;
+}
+#lname .form-control{
+    position: relative;
+    bottom: 46.8px;
+    left: 210px;
+    width: 180px;
+}
+#email2 .form-control{
+    position: relative;
+    bottom: 30px;
+    width: 90%;
+}
+#pwd .form-control{
+    position: relative;
+    bottom: 42px;
+    width: 90%;
+}
+#birthday{ 
+    position: relative;
+    bottom: 60px;
+    font-size: 15px;
+    color: #606770;
+    margin: 20px 0px 20px 20px;
+}
+#icn{
+    color: #606770;
+    width: 10px; 
+}
+.bselector{
+    position: relative;
+    bottom: 80px;
+}
+.dropdown-item{
+ position: relative;
+ width: 120px;
+ margin-left: 20px;
+ border: #fffcfc 0.5px solid;
+ background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+ border-radius: 2px;
+ border-width: 1px;
+ border-style: solid;
+ border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+ border-radius: 5px;
+ display: inline;
+ font-size: 15px;
+ font-weight: normal;
+ height: 36px;
+ line-height: 20px;
+}
+.dropdown-item:hover{
+    background-color: #ffffff;
+}
+#month{
+    color: black;
+    padding: 0px 20px 0px 8px;
+    background-color: #fff;
+    font-size: 15px;
+    font-weight: normal;
+    border: 1px solid #ccd0d5;
+}
+#day{
+    color: black;
+    background-color: #fff;
+    margin: 0px 0px 0px 12px;
+    padding: 0px 20px 0px 8px;
+    font-size: 15px;
+    border: 1px solid #ccd0d5;
+    font-weight: normal;
+
+}
+#year{
+    color: black;
+    background-color: #fff;
+    margin: 0px 0px 0px 12px;
+    padding: 0px 20px 0px 8px;
+    font-size: 15px;
+    border: 1px solid #ccd0d5;
+    font-weight: normal;
+}
+select:not(:-internal-list-box) {
+    overflow: visible !important;
+}
+#icn2{
+    color: #606770;
+}
+#gender{
+    position: relative;
+    bottom: 70px;
+    margin-left: 20px;
+}
+.gselector {
+    display: inline-block;
+    position: relative;
+    bottom: 73px;
+    margin: 5px 20px 5px 20px ;
+}
+._5k_2 {
+    background-color: #fff;
+    border: 1px solid #ccd0d5;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: inline-block;
+    flex: 1 0 auto;
+    font-weight: normal;
+    height: 36px;
+
+    width: 120px;
+    border-width: 1px;
+    display: inline-block;
+    padding: 5px 0px 5px 4px;
+}
+ span {
+    font-family: inherit;
+}
+._8esf ._5k_2 ._8esa {
+    position: relative;
+    left: 20px;
+}
+._8esa{
+    position: relative;
+    left: 10px;
+}
+._5k_2 .male{
+    position: relative;
+    left: 30px;
+}
+._58mu {
+    width: 399px;
+    color: #777777;
+    font: 11px helvetica,arial,sans-serif;
+    margin-left: 20px;
+    position: relative;
+    bottom: 70px;
+}
+._58mu a{
+ color: #385898;
+}
+._1lch{
+    position: relative;
+    margin-top: 30px;
+    bottom: 90px;
+    left: 25%;
+}
+.sign-up{
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+    font-weight: bold !important;
+    text-rendering: optimizelegibility;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    min-width: 194px;
+    padding: 7px 20px;
+    text-align: center;
+    background-color: #00a400;
+    border-radius: 6px;
+    padding: 20px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    height: 36px;
+    overflow: hidden;
+    padding: 0 32px;
+    text-shadow: none;
+    font-family: Helvetica, Arial, sans-serif;
+    appearance: button;
+    color: #fff;
+    border: 1px solid;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    letter-spacing: 1px;
+    position: relative;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    font-size: 19px;
+    line-height: 126%;
+}
+._1lch button:hover {
+    background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+}
+.hidden_elem {
+    display: none !important;
+}
+
+._8esf ._58mi:after {
+    content: '';
+    display: inline-block;
+    height: 36px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    vertical-align: middle;
+}
+/* hover create new account */
+._8icy ._6lti {
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+}
+._42ft {
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    white-space: nowrap;
+}
+._6lti {
+    font-size: 14px;
+}
+._4jy6, ._4jy6._42fr:active, ._4jy6._42fr._42fs {
+    line-height: 42px;
+    padding: 0 24px;
+}
+._4jy2 {
+    background-color: #42b72a;
+    border-color: #42b72a;
+}
+._4jy1, ._4jy2 {
+    color: #fff;
+}
+._4jy0 {
+    transition: 200ms cubic-bezier(.08,.52,.52,1) background-color, 200ms cubic-bezier(.08,.52,.52,1) box-shadow, 200ms cubic-bezier(.08,.52,.52,1) transform;
+}
+._4jy0 {
+    border: 1px solid;
+    border-radius: 2px;
+    box-sizing: content-box;
+    font-size: 12px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: bold;
+    justify-content: center;
+    padding: 0 8px;
+    position: relative;
+    text-align: center;
+    text-shadow: none;
+    vertical-align: middle;
+}
+#overlay{
+    display: none;
+    position: relative;
+    bottom: 0;
+    left: 0;
+     /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+     height: 100%;
+     width: 100%;
+     position: fixed; /* Stay in place */ 
+     background-color:  rgba(255, 255, 255, .10); /* Black fallback color */
+     background-color: rgba(10, 10, 10, .9); /*opacity */
+     overflow-x: hidden; /* Disable horizontal scroll */
+     transition: 0.15s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+.closebtn{
+    position: relative;
+    left: 13.5rem;
+    bottom: 10px;
+    z-index: 2;
+    color: gray;
+    text-decoration: none;
+    font-size: 40px;
+  }
+#create{
+    width: 50%;
+    height: 70%;
+}
